@@ -14,6 +14,11 @@ uma mensagem de erro personalizada.
 Obs: A palavra 'assert' pode ser utilizada em qualquer função ou codigo
 nosso. Não precisa ser exclusivamente nos testes. 
 
+# Alerta! Cuidado ao utilizar assert. Se um programa Python for executado
+com o parâmetro -O, nenhum assertion será validado. Ou seja, todas as
+suas validações ja eram.
+
+
 """
 
 def soma_numeros_positivos(a, b):
@@ -39,4 +44,5 @@ def comer_fast_food(comida):
 
 comida = input("Informe a comida: ")
 print(comer_fast_food(comida))
+
 
