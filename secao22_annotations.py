@@ -1,7 +1,4 @@
-# import math
-
-"""
-def circunferencia(raio: float) -> float:
+"""def circunferencia(raio: float) -> float:
     return 2 * math.pi * raio
 
 
