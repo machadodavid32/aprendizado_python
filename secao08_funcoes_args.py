@@ -12,7 +12,8 @@ Mas por convenção, utilizamos *args para definí-lo.
 
 Mas o que é *args?
 
-O parâmetro *args utilizado em uma função, coloca os valores extras informados como entrada em uma tupla.
+O parâmetro *args utilizado em uma função, coloca os valores extras informados como ...
+entrada em uma tupla.
 Então desde já lembre-se que tuplas são imutáveis.
 
 
